@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ABC School || About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="School Demo | ABC Company">
+    <meta name="keywords" content="School website design,demo" />
+    <meta property="og:image" content="">
+	<meta name="description" content="School website Design by Roshan Ghimire" />
+    <meta property="og:description" content="orem Ipsum is simply dummy text of the printing and typesetting industry." />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" >
+    <link rel="stylesheet" type="text/css" href="../assets/css/style1.css" >
+    <script src="/assets/js/script.js"></script>
+    <style>
+        li:nth-child(3):after {
+        left: 2px;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 8px;
+        background: red;
+        bottom: -20px;
+        margin: auto;
+}
+li:nth-child(1):after {
+    display: none;
+}
+img {
+			float: left;
+			margin: 5px;
+		}
+		p {
+			text-align: justify;
+			font-size: 25px;
+		}
+    .event{
+      border: 0px;
+      color: var(--white);
+      width: 30%;
+        height: 265px;
+    }
+    .event-link{
+      float: none;
+    }
+    .event-link::after{
+      display: none;
+    }
+    </style>
+</head>
+<body>
+    <section>
+      <nav class="navbar">
+        <div class="container flex-sb">
+          <div class="brand-logo flex-center" style="font-size: 24px;"><a href = "../index.html">School's Name</a></div>
+          <div class="right-box">
+            <div class="contact-box ">
+              <div><i class="fas fa-envelope"></i> abcschool@gmail.com</div>
+              <div><i class="fas fa-phone" style="transform: rotate(90deg);"></i> 9844181033, 9854033891</div>
+            </div>
+              <div class="nav-links">
+                <ul>
+                  <li><a href = "../index.html">Home</a></li>
+                  <li><a href = "event.html">Events</a></li>
+                  <li><a href = "about-us.html">About Us</a></li>
+                  <li><a href = "contact-us.html">Contact us</a></li>
+                  <li><a href = "result.html">Result</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu-bar" onclick="togglemenu()"><i class="fas fa-bars"></i></div>
+            <div class="menu-drawer" id="menu-drawer">
+              <ul>
+                <li><a href = "../index.html">Home</a></li>
+                <li><a href = "event.html">Events</a></li>
+                <li><a href = "about-us.html">About Us</a></li>
+                <li><a href = "contact-us.html">Contact us</a></li>
+                <li><a href = "result.html">Result</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="about-us heading">
+          <h4 class="about-us-text">ABOUT US <p class="horizontal-line"></p></h4>
+      </div>
+        <div class="about-main-wrapper">
+        <div class="about-container">
+            <div class = "image-container">
+                <img class = "about-image" src="../assets/images/School.jpg" alt="School Image" />
+            </div>
+            <p class = "about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla delectus assumenda sequi tenetur quibusdam fuga temporibus pariatur doloremque! Voluptate iure facere repudiandae laudantium dicta quia fugiat quidem ex similique beatae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quae odit cupiditate est architecto? Asperiores rem, aperiam, dolores nulla amet minus at quis ea inventore vel perspiciatis, reiciendis ex eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quaerat atque eveniet aliquid reprehenderit quam facilis vero delectus asperiores est at, beatae error nulla voluptas veniam voluptatibus ea. Totam, nesciunt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus harum sapiente laborum repudiandae dolorum tempore optio pariatur? Quasi numquam libero sequi possimus veritatis impedit eaque ipsa ratione accusamus iusto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, animi debitis qui eaque laborum alias ipsum mollitia sint vel delectus fugiat modi praesentium, harum iste iure placeat odio cum at.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus harum sapiente laborum repudiandae dolorum tempore optio pariatur? Quasi numquam libero sequi possimus veritatis impedit eaque ipsa ratione accusamus iusto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, animi debitis qui eaque laborum alias ipsum mollitia sint vel delectus fugiat modi praesentium, harum iste iure placeat odio cum at.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi possimus rerum enim, adipisci, magni laboriosam incidunt ab provident, architecto unde ipsam fugit! Labore fuga incidunt id enim vel, ea architecto! </p>
+        </div>
+        
+            
+          </div>
+        </div>
+      </div>
+      </section>
+      <footer style="margin-top:20px">
+        <div class = "footer flex-sb sm-col">
+          <div class = "event sm-w-full">
+            <h3 class="event-text" style="width:45%;margin-bottom: 10px;text-align: left;">Events</h3>
+            <p style="content:'';width:30%;background-color: tomato;height: 10px;"></p>
+            <ul style="width:70%;text-align: left;margin-left: 7%;margin-bottom: 10px;">
+              <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+              <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+              <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+              <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+              <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+            </ul>
+          </div>
+          <div class = "event sm-w-full">
+            <h3 class="event-text" style="margin-bottom: 10px;text-align: left;">Links</h3>
+            <p style="content:'';width:30%;background-color: tomato;height: 10px;"></p>
+            <ul style="width:70%;text-align: left;margin-left: 7%;margin-bottom: 10px;">
+              <li class="event-link"><a href = "#">Home</a></li>
+              <li class="event-link"><a href = "./pages/event.html">Events</a> <span></span></li>
+              <li class="event-link"><a href = "./pages/about-us.html">About Us</a></li>
+              <li class="event-link"><a href = "./pages/contact-us.html">Contact us</a></li>
+              <li class="event-link"><a href = "./pages/result.html">Result</a></li>
+            </ul>
+          </div>
+          <div class = "event sm-w-full flex-col">
+            <h3 class="event-text" style="margin-bottom: 10px;text-align: left; width: 100%;">Social</h3>
+            <p class="horizontal-line"></p>
+            <div class="w-full flex-center"><i class="fab fa-whatsapp icon-34"></i>+977-9812312567</div>
+            <div class="w-full flex-center"><i class="fab fa-facebook icon-34"></i>/somepagename</div>
+            <div class="w-full flex-center"><i class="fab fa-instagram icon-34"></i>/instagramhandle</div>
+          </div>
+        </div>
+        <div>Copyright © 2021 || made with ❤ by The Good Guys Tech</div>
+      </footer>
+</body>
+</html>

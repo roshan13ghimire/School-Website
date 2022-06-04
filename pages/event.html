@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ABC School|| Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="School Demo| ABC Company">
+    <meta name="keywords" content="School website design,demo" />
+    <meta property="og:image" content="">
+	  <meta name="description" content="School website Design Roshan Ghimire" />
+    <meta property="og:description" content="orem Ipsum is simply dummy text of the printing and typesetting industry." />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" >
+    <link rel="stylesheet" type="text/css" href="/assets/css/swipper.css" >
+    <link rel = "stylesheet" type = "text/css" href = "/assets/css/card.css" />
+    <script src="assets/js/script.js"></script>
+    <style>
+        li:nth-child(2):after {
+        left: 2px;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 8px;
+        background: red;
+        bottom: -20px;
+        margin: auto;
+}
+li:nth-child(1):after {
+    display: none;
+}
+.event{
+      border: 0px;
+      color: var(--white);
+      width: 30%;
+        height: 265px;
+    }
+    .event-link{
+      float: none;
+    }
+    .event-link::after{
+      display: none;
+    }
+</style>
+</head>
+<body>
+    <section>
+      <nav class="navbar">
+        <div class="container flex-sb">
+          <div class="brand-logo flex-center" style="font-size: 24px;"><a href = "../index.html">School's Name</a></div>
+          <div class="right-box">
+            <div class="contact-box ">
+              <div><i class="fas fa-envelope"></i> abcschool@gmail.com</div>
+              <div><i class="fas fa-phone" style="transform: rotate(90deg);"></i> 9844181033, 9854033891</div>
+            </div>
+              <div class="nav-links">
+                <ul>
+                  <li><a href = "../index.html">Home</a></li>
+                  <li><a href = "event.html">Events</a></li>
+                  <li><a href = "about-us.html">About Us</a></li>
+                  <li><a href = "contact-us.html">Contact us</a></li>
+                  <li><a href = "result.html">Result</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu-bar" onclick="togglemenu()"><i class="fas fa-bars"></i></div>
+            <div class="menu-drawer" id="menu-drawer">
+              <ul>
+                <li><a href = "../index.html">Home</a></li>
+                <li><a href = "event.html">Events</a></li>
+                <li><a href = "about-us.html">About Us</a></li>
+                <li><a href = "contact-us.html">Contact us</a></li>
+                <li><a href = "result.html">Result</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </div>
+        <div class="contact-us heading">
+          <h4 class="contact-us-text">EVENTS <p class="horizontal-line"></h4>
+      </div>
+      <div class="events-cards-container" style="width: 95vw;margin: 0px auto;">
+        <div class="wrapper">
+          <div class="card"><img src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&amp;fit=crop&amp;w=667&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" />
+              <div class="info">
+                  <h1>Mountain</h1>
+                  <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p><button>Read More</button>
+              </div>
+          </div>
+          <div class="card"><img src="https://images.unsplash.com/photo-1425342605259-25d80e320565?auto=format&amp;fit=crop&amp;w=750&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" />
+              <div class="info">
+                  <h1>Road</h1>
+                  <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p><button>Read More</button>
+              </div>
+          </div>
+          <div class="card"><img src="https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?auto=format&amp;fit=crop&amp;w=311&amp;q=80&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" />
+              <div class="info">
+                  <h1>Protester</h1>
+                  <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p><button>Read More</button>
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <footer style="margin-top:20px">
+      <div class = "footer flex-sb sm-col">
+        <div class = "event sm-w-full">
+          <h3 class="event-text" style="width:45%;margin-bottom: 10px;text-align: left;">Events</h3>
+          <p style="content:'';width:30%;background-color: tomato;height: 10px;"></p>
+          <ul style="width:70%;text-align: left;margin-left: 7%;margin-bottom: 10px;">
+            <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+            <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+            <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+            <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+            <li class="event-link"><a href = "event.html">Lorem ipsum dolor </a></li>
+          </ul>
+        </div>
+        <div class = "event sm-w-full">
+          <h3 class="event-text" style="margin-bottom: 10px;text-align: left;">Links</h3>
+          <p style="content:'';width:30%;background-color: tomato;height: 10px;"></p>
+          <ul style="width:70%;text-align: left;margin-left: 7%;margin-bottom: 10px;">
+            <li class="event-link"><a href = "#">Home</a></li>
+            <li class="event-link"><a href = "./pages/event.html">Events</a> <span></span></li>
+            <li class="event-link"><a href = "./pages/about-us.html">About Us</a></li>
+            <li class="event-link"><a href = "./pages/contact-us.html">Contact us</a></li>
+            <li class="event-link"><a href = "./pages/result.html">Result</a></li>
+          </ul>
+        </div>
+        <div class = "event sm-w-full flex-col">
+          <h3 class="event-text" style="margin-bottom: 10px;text-align: left; width: 100%;">Social</h3>
+          <p class="horizontal-line"></p>
+          <div class="w-full flex-center"><i class="fab fa-whatsapp icon-34"></i>+977-9812312567</div>
+          <div class="w-full flex-center"><i class="fab fa-facebook icon-34"></i>/roshan13ghimire</div>
+          <div class="w-full flex-center"><i class="fab fa-instagram icon-34"></i>/roshan13ghimire</div>
+        </div>
+      </div>
+      <div>Copyright © 2021 || made with ❤ Roshan Ghimire</div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/swipper.js"></script>
+    <script src="assets/js/counter.js"></script>
+  </body>
+  </html>
